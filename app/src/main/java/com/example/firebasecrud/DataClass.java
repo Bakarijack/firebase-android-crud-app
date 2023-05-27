@@ -6,6 +6,10 @@ public class DataClass {
     private String dataLang;
     private String dataImage;
 
+    public DataClass(){
+
+    }
+
     public DataClass(String dataTitle, String dataDesc, String dataLang, String dataImage) {
         this.dataTitle = dataTitle;
         this.dataDesc = dataDesc;
